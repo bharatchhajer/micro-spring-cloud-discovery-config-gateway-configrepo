@@ -1,4 +1,7 @@
-server
+spring:
+  application:
+    name: product-service
+server:
   port: 8091
 product:
   name: product-from-central-config-repo
